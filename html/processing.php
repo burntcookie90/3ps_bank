@@ -21,7 +21,7 @@
 
 //connect to mysql server
 
-$link = mysql_connect('128.61.105.48', 'gt', '');
+$link = mysql_connect('SERVER', 'USERNAME', 'PASSWORD');
 if (!$link) {
     die('Could not connect: ' . mysql_error());
 }
